@@ -24,14 +24,6 @@
     "bio_src": "https://en.wikipedia.org/wiki/Tim_Cook"
   },
   {
-    "img_url": "static/images/crane.jpg",
-    "name": "David Crane",
-    "nationality": "American",
-    "bio": "Writer and producer best known as one of the co-creators of the hugely successful TV sitcom Friends in 1994. Together with his husband and fellow writer-producer Jeffrey Klarik, Crane has since created the sitcoms The Class and Episodes, the latter of which ran for five seasons on the BBC. The couple live in LA.",
-    "img_src": "https://m.media-amazon.com/images/M/MV5BNDAxODQxMTM0OF5BMl5BanBnXkFtZTcwODg2MDg5Nw@@._V1_.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/David_Crane_(producer)"
-  },
-  {
     "img_url": "static/images/donoghue.jpg",
     "name": "Emma Donoghue",
     "nationality": "Irish",
@@ -70,6 +62,14 @@
     "bio": "Since coming out as gay in 2014, Oscar-nominated actor Page has become known as one of Hollywood's most outspoken LGBTQ+ stars. His subsequent announcement, made via Twitter late last year, that he is transgender included a pledge to advocate for better trans healthcare.",
     "img_src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1172973862.jpg?crop=1.00xw:0.667xh;0,0.0942xh&resize=640:*",
     "bio_src": "https://en.wikipedia.org/wiki/Elliot_Page"
+  },
+  {
+    "img_url": "static/images/rapinoe.jpg",
+    "name": "Megan Rapinoe",
+    "nationality": "American",
+    "bio": "Arguably the most famous footballer in the women's game, in the past decade alone Rapinoe has won Olympic Gold as well as the World Cup (twice) with the US national team. In 2019 she was awarded both the Golden Boot and Golden Ball at that summer's World Cup, and was later crowned Sports Illustrated's Sportsperson of The Year. With over 2 million Instagram followers, Rapinoe is a vocal advocate for numerous LGBTQ+ organisations and social movements.",
+    "img_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe#/media/File:Megan_Rapinoe_(48675274817)_(cropped).jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe"
   },
   {
     "img_url": "static/images/thomas.jpg",
