@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 440px;
 /*   border: 1px solid #ccc; */
   perspective: 1000px;
+  cursor: pointer;
 }
 
 .flip-card-container.flip .flip-card {
@@ -187,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .flip-card-outer {
-    width: 33.3333333333333333vw;
+    max-width: 15.5em;
     height: unset;
     position: relative;
     top: 4.375em;
@@ -245,6 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 .flip-card-back p {
   font-size: .83rem;
   line-height: 1.15rem;
+  margin-top: 1rem;
 }
 
 .name-wrapper {
@@ -260,4 +262,71 @@ h1, h2, h3, h4, h5, h6 {
 .name-wrapper-heading {
   padding-right: 6em;
 }
-} 
+
+.card-1 .flip-card-front {
+  overflow-y: hidden;
+}
+
+.card-1 .flip-card-front img:not(.icon) {
+  position: relative;
+  top: -4rem;
+}
+
+.flip-card-outer:nth-of-type(10),
+.flip-card-outer:nth-of-type(11),
+.flip-card-outer:nth-of-type(12) {
+  padding-bottom: 3rem;
+}
+
+.flip-card-row {
+  overflow-y: unset;
+}
+}
+
+@media (min-width: 992px) {
+h5 {
+  font-size: 1.1em;
+  position: relative;
+  top: .15em;
+}
+
+.flip-card-outer:nth-of-type(9) {
+  padding-bottom: 3rem;
+}
+
+.flip-card-row {
+  padding: 2em;
+  height: 129vh;
+}
+
+.flip-card-wrapper,
+.flip-card-container {
+  height: 43vh;
+}
+
+.flip-card-back p {
+  font-size: .8125rem;
+  line-height: .93rem;
+}
+
+.pride-doughnut-icon {
+  width: 2.25em;
+}
+
+.flip-over-icon {
+  width: 2.5em;
+  bottom: 1%;
+}
+}
+
+@media (min-width: 1200px) {
+  .flip-card-row {
+    max-width: 72em;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .flip-card-outer {
+    max-width: 16.125em;
+  }
+  }
