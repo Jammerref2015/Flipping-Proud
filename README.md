@@ -45,7 +45,7 @@ This website will follow the principles of User Centred Design (UCD), which will
 	
 	The following colour scheme was decided upon with assistance from the [coolors](https://coolors.co/ffca3a-8ac926-1982c4-6a4c93-343330-fffbfe) website:
 	
-	![Flippin' Proud Colour Scheme](https://coolors.co/ffca3a-8ac926-1982c4-6a4c93-343330-fffbfe) 
+	![Flippin' Proud Colour Scheme](https://github.com/Jammerref2015/Flipping-Proud/blob/master/static/images/Flippin'%20Proud%20Colour%20Scheme.png) 
 -   #### Typography
 	Montserrat was chosen as the main font to be used for the site. It is a clean font, which is easy to read for accessibility purposes and also a popular font, used on many existing websites with a LGBTQ+ theme. Roboto acts as a second font as this pairs well with Montserrat.
 	Sans serif will act as a fallback font in case the chosen fonts are not imported correctly.
