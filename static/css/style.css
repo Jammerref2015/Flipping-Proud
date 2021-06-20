@@ -1,4 +1,4 @@
-*{
+* {
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -28,13 +28,30 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #733A9B !important;
 }
 
+.navbar-toggler {
+  border: .1em solid #f0f0f0;
+  padding: .375rem .925rem;
+}
+
+.nav-link.active {
+  background-color: #f0f0f0;
+  color: #733a9b;
+}
+
+.fas.fa-bars {
+  color: #f0f0f0;
+  font-weight: 600;
+}
+
 .navLinks a {
-  color: #FFFBFE;
-  font-size: 143.5%;
+  color: #F0f0f0;
+  font-size: 120%;
 }
 
 .logoStyling img {
-  height:80px;
+  height:70px;
+  position: relative;
+  left: -.5em;
 }
 
 .flip-card-row {
@@ -44,11 +61,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .flip-card-outer {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 4.375em);
   display: flex;
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
+}
+
+.flip-card-wrapper {
+  position: relative;
+  top: 3em;
 }
 
 .flip-card-container {
@@ -82,8 +104,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   border-radius: 0.5rem;
   box-shadow: 10px 14px 38px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 14px 38px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 14px 38px 1px rgba(0,0,0,0.75);
 }
 
 .flip-card-front {
@@ -133,30 +153,111 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #8ac926;
 }
 
+.box-shadow-green {
+  box-shadow: rgba(138, 201, 38, 0.85) 0 0 20px 5px;
+}
+
 .bg-blue {
   background-color: #1982c4;
+}
+
+.box-shadow-blue {
+  box-shadow: rgba(25, 130, 196, 0.85) 0 0 20px 5px;
 }
 
 .bg-purple {
   background-color: #6a4c93;
 }
 
+.box-shadow-purple {
+  box-shadow: rgba(106, 76, 147, 0.95) 0 0 20px 5px;
+}
+
 .bg-yellow {
   background-color: #ffca3a;
 }
 
+.box-shadow-yellow {
+  box-shadow: rgba(255, 202, 58, 0.65) 0 0 20px 5px;
+}
+
 @media (min-width: 768px) {
+  body {
+    position: relative;
+  }
+
   .flip-card-outer {
     width: 33.3333333333333333vw;
+    height: unset;
+    position: relative;
+    top: 4.375em;
+  }
+
+  .flip-card-wrapper {
+    top: 1em;
     height: 30vh;
+    width: 100%;
+    margin-bottom: 2em;
   }
 
   .flip-card-container {
-    width: 210px;
-    height: 280px;
+    width: 100%;
+    height: 30vh;
   }
 
   .flip-card-row {
-    padding: 56px 2em 3em;
+    padding: 1em;
+    position: relative;
+    height: 120vh;
+    scroll-snap-type: unset;
   }
+
+  .nav-link {
+    width: 7em;
+    text-align: center;
+  }
+
+  .nav-link.active {
+    background-color: #fffbfe;
+    color: #733a9b;
+    font-weight: 600;
+  }
+
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+    line-height: 4.375em;
+    position: relative;
+    left: .5em;
+}
+
+.flip-card-back {
+  overflow-y: hidden;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.425);
+}
+
+.pride-doughnut-icon {
+  width: 2.75em;
+}
+.flip-over-icon {
+  width: 3.25em;
+}
+
+.flip-card-back p {
+  font-size: .83rem;
+  line-height: 1.15rem;
+}
+
+.name-wrapper {
+  height: 4em;
+  width: 100%;
+  background-color: #733a9b;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+
+.name-wrapper-heading {
+  padding-right: 6em;
+}
 } 
