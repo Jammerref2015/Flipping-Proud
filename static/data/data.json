@@ -1,83 +1,11 @@
 [
   {
-    "img_url": "static/images/panti.jpg",
-    "name": "Panti Bliss",
+    "img_url": "static/images/wilde.jpg",
+    "name": "Oscar Wilde",
     "nationality": "Irish",
-    "bio": "Drag queen and gay rights activist also known as Rory O'Neill. An outskpoken performer living with HIV, Panti's 2014 speech at Dublin's Abbey Theatre became a watershed moment in the marriage equality movement that led to constitutional reform the following year.",
-    "img_src": "https://en.wikipedia.org/wiki/Panti#/media/File:PantiBliss.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Panti"
-  },
-  {
-    "img_url": "static/images/conway.jpg",
-    "name": "Lynn Conway",
-    "nationality": "American",
-    "bio": "One of the inventors of the VSLI microchip, which sparked a rush of tech startups in the '80s and '90s. She began her gender transition in 1968, and was fired from IBM as a result. In her retirement, she’s become a transgender activist.",
-    "img_src": "https://static01.nyt.com/images/2020/11/20/multimedia/20xp-conway2/20xp-conway2-mobileMasterAt3x.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Lynn_Conway"
-  },
-  {
-    "img_url": "static/images/cook.jpg",
-    "name": "Tim Cook",
-    "nationality": "American",
-    "bio": "Business executive and philanthropist who has been CEO of Apple since 2011. After coming out as gay in a 2014 editorial for Bloomberg Business, Cook became the first and only openly gay CEO on the Fortune 500 list.",
-    "img_src": "https://en.wikipedia.org/wiki/Tim_Cook#/media/File:Tim_Cook_(2017,_cropped).jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Tim_Cook"
-  },
-  {
-    "img_url": "static/images/donoghue.jpg",
-    "name": "Emma Donoghue",
-    "nationality": "Irish",
-    "bio": "Author, playwright and screenwriter best known for the novel Room, which inspired the acclaimed 2015 film of the same name. She lives in Canada with her wife.",
-    "img_src": "https://www.irishtimes.com/polopoly_fs/1.4304134.1594722552!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Emma_Donoghue"
-  },
-  {
-    "img_url": "static/images/holiday.jpg",
-    "name": "Billie Holiday",
-    "nationality": "American",
-    "bio": "Influential singer and jazz musician whose career spanned three decades. Holiday is regarded as a bi icon, and may have had a relationship with actress Tallulah Bankhead. She received four posthumous Grammy awards.",
-    "img_src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-167855118-1556205625.jpg",
-    "bio_src": "https://bi.org/en/famous/billie-holiday"
-  },
-  {
-    "img_url": "static/images/mckellen.jpg",
-    "name": "Ian McKellen",
-    "nationality": "English",
-    "bio": "Renowned stage and screen actor whose prolific career spans more than six decades. McKellen is the recipient of a Tony Award and two Oscar nominations, and was knighted in 1991 for services to the performing arts. Having gone public about his sexuality in 1988, Sir Ian continues to champion LGBTQ+ social movements worldwide.",
-    "img_src": "https://en.wikipedia.org/wiki/Ian_McKellen#/media/File:SDCC13_-_Ian_McKellen.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Ian_McKellen"
-  },
-  {
-    "img_url": "static/images/norris.jpg",
-    "name": "David Norris",
-    "nationality": "Irish",
-    "bio": "Independent senator and civil rights activist whose fourteen-year campaign to overthrow Ireland's anti-homosexuality law finally brought about reform in 1988. Norris became the first openly gay Irish person to be elected to public office, and is also a prominent literary scholar.",
-    "img_src": "https://en.wikipedia.org/wiki/David_Norris_(politician)#/media/File:David_Norris_politician.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/David_Norris_(politician)"
-  },
-  {
-    "img_url": "static/images/page.jpg",
-    "name": "Elliot Page",
-    "nationality": "Canadian",
-    "bio": "Since coming out as gay in 2014, Oscar-nominated actor Page has become known as one of Hollywood's most outspoken LGBTQ+ stars. His subsequent announcement, made via Twitter late last year, that he is transgender included a pledge to advocate for better trans healthcare.",
-    "img_src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1172973862.jpg?crop=1.00xw:0.667xh;0,0.0942xh&resize=640:*",
-    "bio_src": "https://en.wikipedia.org/wiki/Elliot_Page"
-  },
-  {
-    "img_url": "static/images/rapinoe.jpg",
-    "name": "Megan Rapinoe",
-    "nationality": "American",
-    "bio": "Arguably the most famous footballer in the women's game, in the past decade alone Rapinoe has won Olympic Gold as well as the World Cup (twice) with the US national team. In 2019 she was awarded both the Golden Boot and Golden Ball at that summer's World Cup, and was later crowned Sports Illustrated's Sportsperson of The Year. With over 2 million Instagram followers, Rapinoe is a vocal advocate for numerous LGBTQ+ organisations and social movements.",
-    "img_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe#/media/File:Megan_Rapinoe_(48675274817)_(cropped).jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe"
-  },
-  {
-    "img_url": "static/images/thomas.jpg",
-    "name": "Gareth Thomas",
-    "nationality": "Welsh",
-    "bio": "Following an illustrious playing career that saw him earn 100 caps for Wales as well as three appearances for the British & Irish Lions, Thomas' public confirmation of his sexuality in 2009 made him the first openly gay professional rugby player. A decade later, Thomas announced that he is HIV positive, and has since vowed to break the stigma surrounding the illness.",
-    "img_src": "https://en.wikipedia.org/wiki/Gareth_Thomas_(rugby)#/media/File:Gareth_Thomas_(rugby_player).jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Gareth_Thomas_(rugby)"
+    "bio": "Playwright, novelist and poet whose flamboyant dress, cutting wit and eccentric lifestyle often put him at odds with the social norms of his time. Convicted in 1895 under the UK's \"gross indecency\" laws and sentenced to two years' hard labour, Wilde died destitute in Paris not long after his release.",
+    "img_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Oscar_Wilde_3g07095u-adjust.jpg/440px-Oscar_Wilde_3g07095u-adjust.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Oscar_Wilde"
   },
   {
     "img_url": "static/images/turing.jpg",
@@ -88,11 +16,83 @@
     "bio_src": "https://en.wikipedia.org/wiki/Alan_Turing"
   },
   {
-    "img_url": "static/images/wilde.jpg",
-    "name": "Oscar Wilde",
+    "img_url": "static/images/thomas.jpg",
+    "name": "Gareth Thomas",
+    "nationality": "Welsh",
+    "bio": "Following an illustrious playing career that saw him earn 100 caps for Wales as well as three appearances for the British & Irish Lions, Thomas' public confirmation of his sexuality in 2009 made him the first openly gay professional rugby player. A decade later, Thomas announced that he is HIV positive, and has since vowed to break the stigma surrounding the illness.",
+    "img_src": "https://en.wikipedia.org/wiki/Gareth_Thomas_(rugby)#/media/File:Gareth_Thomas_(rugby_player).jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Gareth_Thomas_(rugby)"
+  },
+  {
+    "img_url": "static/images/rapinoe.jpg",
+    "name": "Megan Rapinoe",
+    "nationality": "American",
+    "bio": "Arguably the most famous footballer in the women's game, in the past decade alone Rapinoe has won Olympic Gold and the World Cup (twice) with the US national team. In 2019 she was awarded both the Golden Boot and Golden Ball at that summer's World Cup, and was later crowned Sports Illustrated's Sportsperson of The Year. With over 2 million Instagram followers, Rapinoe is a vocal advocate for numerous LGBTQ+ organisations.",
+    "img_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe#/media/File:Megan_Rapinoe_(48675274817)_(cropped).jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe"
+  },
+  {
+    "img_url": "static/images/page.jpg",
+    "name": "Elliot Page",
+    "nationality": "Canadian",
+    "bio": "Since coming out as gay in 2014, Oscar-nominated actor Page has become known as one of Hollywood's most outspoken LGBTQ+ stars. His subsequent announcement, made via Twitter late last year, that he is transgender included a pledge to advocate for better trans healthcare.",
+    "img_src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1172973862.jpg?crop=1.00xw:0.667xh;0,0.0942xh&resize=640:*",
+    "bio_src": "https://en.wikipedia.org/wiki/Elliot_Page"
+  },
+  {
+    "img_url": "static/images/norris.jpg",
+    "name": "David Norris",
     "nationality": "Irish",
-    "bio": "Playwright, novelist and poet whose flamboyant dress, cutting wit and eccentric lifestyle often put him at odds with the social norms of his time. Convicted in 1895 under the UK's \"gross indecency\" laws and sentenced to two years' hard labour, Wilde died destitute in Paris not long after his release.",
-    "img_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Oscar_Wilde_3g07095u-adjust.jpg/440px-Oscar_Wilde_3g07095u-adjust.jpg",
-    "bio_src": "https://en.wikipedia.org/wiki/Oscar_Wilde"
+    "bio": "Independent senator and civil rights activist whose fourteen-year campaign to overthrow Ireland's anti-homosexuality law finally brought about reform in 1988. Norris became the first openly gay Irish person to be elected to public office, and is also a prominent literary scholar.",
+    "img_src": "https://en.wikipedia.org/wiki/David_Norris_(politician)#/media/File:David_Norris_politician.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/David_Norris_(politician)"
+  },
+  {
+    "img_url": "static/images/mckellen.jpg",
+    "name": "Ian McKellen",
+    "nationality": "English",
+    "bio": "Renowned stage and screen actor whose prolific career spans more than six decades. McKellen is the recipient of a Tony Award and two Oscar nominations, and was knighted in 1991 for services to the performing arts. Having gone public about his sexuality in 1988, Sir Ian continues to champion LGBTQ+ social movements worldwide.",
+    "img_src": "https://en.wikipedia.org/wiki/Ian_McKellen#/media/File:SDCC13_-_Ian_McKellen.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Ian_McKellen"
+  },
+  {
+    "img_url": "static/images/holiday.jpg",
+    "name": "Billie Holiday",
+    "nationality": "American",
+    "bio": "Influential singer and jazz musician whose career spanned three decades. Holiday is regarded as a bi icon, and may have had a relationship with actress Tallulah Bankhead. She received four posthumous Grammy awards.",
+    "img_src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-167855118-1556205625.jpg",
+    "bio_src": "https://bi.org/en/famous/billie-holiday"
+  },
+  {
+    "img_url": "static/images/donoghue.jpg",
+    "name": "Emma Donoghue",
+    "nationality": "Irish",
+    "bio": "Author, playwright and screenwriter best known for the novel Room, which inspired the acclaimed 2015 film of the same name. She lives in Canada with her wife.",
+    "img_src": "https://www.irishtimes.com/polopoly_fs/1.4304134.1594722552!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Emma_Donoghue"
+  },
+  {
+    "img_url": "static/images/cook.jpg",
+    "name": "Tim Cook",
+    "nationality": "American",
+    "bio": "Business executive and philanthropist who has been CEO of Apple since 2011. After coming out as gay in a 2014 editorial for Bloomberg Business, Cook became the first and only openly gay CEO on the Fortune 500 list.",
+    "img_src": "https://en.wikipedia.org/wiki/Tim_Cook#/media/File:Tim_Cook_(2017,_cropped).jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Tim_Cook"
+  },
+  {
+    "img_url": "static/images/conway.jpg",
+    "name": "Lynn Conway",
+    "nationality": "American",
+    "bio": "One of the inventors of the VSLI microchip, which sparked a rush of tech startups in the '80s and '90s. She began her gender transition in 1968, and was fired from IBM as a result. In her retirement, she’s become a transgender activist.",
+    "img_src": "https://static01.nyt.com/images/2020/11/20/multimedia/20xp-conway2/20xp-conway2-mobileMasterAt3x.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Lynn_Conway"
+  },
+  {
+    "img_url": "static/images/panti.jpg",
+    "name": "Panti Bliss",
+    "nationality": "Irish",
+    "bio": "Drag queen and gay rights activist also known as Rory O'Neill. An outskpoken performer living with HIV, Panti's 2014 speech at Dublin's Abbey Theatre became a watershed moment in the marriage equality movement that led to constitutional reform the following year.",
+    "img_src": "https://en.wikipedia.org/wiki/Panti#/media/File:PantiBliss.jpg",
+    "bio_src": "https://en.wikipedia.org/wiki/Panti"
   }
 ]
