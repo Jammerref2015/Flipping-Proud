@@ -25,6 +25,16 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   width: 100%;
   z-index: 999;
+  background-color: #733A9B !important;
+}
+
+.navLinks a {
+  color: #FFFBFE;
+  font-size: 143.5%;
+}
+
+.logoStyling img {
+  height:80px;
 }
 
 .flip-card-outer {
