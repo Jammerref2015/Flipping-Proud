@@ -8,11 +8,17 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
   /* width: 100vw;
   height: 100vh; */
   /* display: flex; */
   overflow-x: hidden;
+  color: #343330;
+  background-color: #fffbfe;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
 }
 
 .navbar {
@@ -55,6 +61,7 @@ body {
   backface-visibility: hidden;
 /*   Below is optional */
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
@@ -82,14 +89,22 @@ body {
 
 .flip-card-back p {
   margin: 1rem;
-  font-size: 1.4rem;
-  line-height: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
 }
 
-.flip-card-back p span {
-  display:block;
-  font-size: 1rem;
-  font-style: italic;
-  font-weight: bold;
-  margin-top:1.25rem;
+.bg-green {
+  background-color: #8ac926;
+}
+
+.bg-blue {
+  background-color: #1982c4;
+}
+
+.bg-purple {
+  background-color: #6a4c93;
+}
+
+.bg-yellow {
+  background-color: #ffca3a;
 }

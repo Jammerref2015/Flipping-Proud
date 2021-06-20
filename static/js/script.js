@@ -1,60 +1,42 @@
-console.log("Flippin' proud!");
-
-// const flipCardContainer = document.querySelector(".flip-card-container");
-// $(document).on('click', flipCardContainer, function() {
-//     flipCardContainer.classList.toggle("flip");
-// });
-
 $(document).ready(function() {
-    console.log("Where's the data?");
-    $.get("static/data/data.json", function(data) {
+    $.when($.ajax("static/data/data.json")).then(function(data) {
         for (let i = 0; i < data.length; i++) {
             let flipCard = "<div class='flip-card-outer'>";
-            flipCard += "<div class='flip-card-container'>";
+            flipCard += "<div class='flip-card-wrapper'>";
+            let flipCardContainer = `<div class='flip-card-container card-${i}'>`;
+            flipCard += flipCardContainer;
+            flipCard += "<div class='flip-card'>";
 
             let flipCardFront = "<div class='flip-card-front'>";
-            flipCardFront += "<img src='https://upload.wikimedia.org/wikipedia/commons/9/9e/Tim_Cook_%282017%2C_cropped%29.jpg' alt='Tim Cook'>";
+            flipCardFront += `<img src='${data[i].img_url}' alt='${data[i].name}'>`;
+            flipCardFront += "</div>";
 
             let flipCardBack = "<div class='flip-card-back'>";
-            flipCardBack += "<p>American business executive who has been the chief executive officer of Apple Inc. since 2011. <span>Tim Cook</span></p>";
+            flipCardBack += `<h3>${data[i].name}</h3>`;
+            flipCardBack += `<p>${data[i].bio}</p>`;
+            flipCardBack += "</div>";
 
-            flipCard += flipCardFront;
-            flipCard += flipCardBack;
+            let flipCardContent = flipCardFront.concat(flipCardBack);
+
+            flipCard += flipCardContent;
 
             $("nav").after(flipCard);
 
+            if (i === 0) { 
+                $(`.card-${i} .flip-card-back`).addClass('bg-yellow');
+            } else if (i % 4 === 0) {
+                $(`.card-${i} .flip-card-back`).addClass('bg-yellow');
+            } else if (i === 1 || i === 5 || i === 9) {
+                $(`.card-${i} .flip-card-back`).addClass('bg-purple');
+            } else if (i === 2 || i === 6 || i === 10) {
+                $(`.card-${i} .flip-card-back`).addClass('bg-blue');
+            } else {
+                $(`.card-${i} .flip-card-back`).addClass('bg-green');
+            }
+
+            $(`.card-${i}`).click(function () {
+                $(this).toggleClass('flip');
+            });
         }
-    // var i, tr, resort;
-    // for (i = 0; i < data.length; i++) {
-    //     tr = "<tr>";
-    //     tr += "<td class='pl-1'>" + data[i].strikeRank + '</td><td class="pr-2">' + data[i].fullname + `</td><td class='pl-2 pr-2 crest-pane ${data[i].club.replace(/ /g, '-').replace('&', 'and').toLowerCase()}-crest-pane'></td><td class='pl-1 text-center pr-3'>` + data[i].goals + '</td><td class="pl-2 text-center pr-3">' + data[i].pens + '</td><td class="text-center pl-1 pr-3">' + data[i].goalsMinusPens + '</td></tr>';
-    //     leaderboardBody.innerHTML += tr;
-
-    //     resort = true;
-    //     $("#my-table").trigger('update', [resort]);
-    // }
-
-    // for (i = 0; i < data.length; i++) {
-    //     tr = "<tr>";
-    //     tr += "<td class='pl-1'>" + data[i].strikeRank + '</td><td class="pr-2">' + data[i].fullname + `</td><td class='pl-2 pr-2 crest-pane ${data[i].club.replace(/ /g, '-').replace('&', 'and').toLowerCase()}-crest-pane'></td><td class='pl-1 text-center pr-3'>` + data[i].goals + '</td><td class="pl-2 text-center pr-3 table-border-left table-backdrop-contrast">' + data[i].goalsPer90 + '</td><td class="text-center pl-1 pr-3 table-backdrop-contrast">' + data[i].goalsMinusPensPer90 + '</td></tr>';
-    //     leaderboardBodyStrikeRate.innerHTML += tr;
-
-    //     resort = true;
-    //     $("#my-second-table").trigger('update', [resort]);
-    // }
-
-    // for (i = 0; i < data.length; i++) {
-    //     var valueGoals = data[i].goals / data[i].value;
-    //     var valueGoalsRounded = valueGoals.toFixed(2);
-    //     var valueGoalsMinusPens = data[i].goalsMinusPens / data[i].value;
-    //     var valueGoalsMinusPensRounded = valueGoalsMinusPens.toFixed(2);
-
-    //     tr = "<tr>";
-    //     tr += "<td class='pl-1'>" + data[i].strikeRank + '</td><td class="pr-2">' + data[i].fullname + `</td><td class='pl-2 pr-2 crest-pane ${data[i].club.replace(/ /g, '-').replace('&', 'and').toLowerCase()}-crest-pane'></td><td class='pl-1 text-center pr-3'>` + data[i].goals + '</td><td class="pl-2 text-center pr-3 table-border-left table-backdrop-contrast">' + valueGoalsRounded + '</td><td class="text-center pl-1 pr-3 table-backdrop-contrast">' + valueGoalsMinusPensRounded + '</td></tr>';
-
-    //     leaderboardBodyStrikeValue.innerHTML += tr;
-    //     resort = true;
-    //     $("#my-third-table").trigger('update', [resort]);
-    // }
     });
 });
