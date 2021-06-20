@@ -36,8 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flip-card-container {
-  width: 300px;
-  height: 400px;
+  width: 330px;
+  height: 440px;
 /*   border: 1px solid #ccc; */
   perspective: 1000px;
 }
