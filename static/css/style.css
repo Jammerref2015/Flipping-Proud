@@ -239,6 +239,52 @@ h6 {
   padding-bottom: .75rem;
 }
 
+/*--- jumbotron ---*/
+.jumbotron {
+  height: 80vh;
+  max-width: 80%;
+  border-radius: 1rem;
+  margin: 0 auto;
+  background-color: #fffbfe;
+  padding-top: 2rem;
+}
+
+.btn-cta {
+  width: 150px;
+  height: 75px;
+  border-radius: 25px;
+  font-weight: 600;
+  padding-top: 12px;
+  background-color: #733a9b;
+  color: #fffbfe;
+  font-size: 150%;
+  padding-top: 1rem;
+}
+
+.text-icon-links a {
+  color: #733a9b;
+}
+
+.text-icon-links a:hover {
+  color: #ffca3a;
+}
+
+.hero-text-image img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text-cta p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   body {
     position: relative;
@@ -358,85 +404,106 @@ h6 {
     width: 10rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .contact-logo {
+    background-color: #fffbfe;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+  }
+
+  .contact-body {
+    background-color: #e8f5fc;
+  }
+
+  .jumbotron {
+    height: unset;
+    max-width: 35rem;
 }
 
-.contact-logo {
-  background-color: #fffbfe;
-  border-top-right-radius: .5rem;
-  border-top-left-radius: .5rem;
+.jumbotron h1 {
+  font-size: 2.5rem;
 }
 
-.contact-body {
-  background-color: #e8f5fc;
+.hero-text-cta p {
+  font-size: 1.15rem;
 }
 
-@media (min-width: 992px) {
-  h5:not(.contact-heading) {
-    font-size: 1.1em;
-    position: relative;
-    top: .15em;
-  }
+}
 
-  .flip-card-outer:nth-of-type(9) {
-    padding-bottom: 3rem;
-  }
+  @media (min-width: 992px) {
+    h5:not(.contact-heading) {
+      font-size: 1.1em;
+      position: relative;
+      top: .15em;
+    }
 
-  .flip-card-row {
-    padding: 2em;
-    height: 129vh;
-  }
+    .flip-card-outer:nth-of-type(9) {
+      padding-bottom: 3rem;
+    }
 
-  .flip-card-wrapper,
-  .flip-card-container {
-    height: 43vh;
-  }
+    .flip-card-row {
+      padding: 2em;
+      height: 129vh;
+    }
 
-  .flip-card-back p {
-    font-size: .8125rem;
-    line-height: .93rem;
-  }
+    .flip-card-wrapper,
+    .flip-card-container {
+      height: 43vh;
+    }
 
-  .pride-doughnut-icon {
-    width: 2.25em;
-  }
+    .flip-card-back p {
+      font-size: .8125rem;
+      line-height: .93rem;
+    }
 
-  .flip-over-icon {
-    width: 2.5em;
-    bottom: 1%;
-  }
+    .pride-doughnut-icon {
+      width: 2.25em;
+    }
 
-  .logoStyling {
-    position: relative;
-    height: 3.75em;
-    width: 16em;
-  }
+    .flip-over-icon {
+      width: 2.5em;
+      bottom: 1%;
+    }
 
-  .logoStyling img {
-    height: 4.5em;
-    width: 16em;
-    position: absolute;
-    left: -1.25em;
-    top: -.125em;
-  }
+    .logoStyling {
+      position: relative;
+      height: 3.75em;
+      width: 16em;
+    }
 
-  .list-group {
-    max-width: 56rem;
-  }
+    .logoStyling img {
+      height: 4.5em;
+      width: 16em;
+      position: absolute;
+      left: -1.25em;
+      top: -.125em;
+    }
 
-  .names-wrapper {
-    flex-wrap: wrap;
-  }
+    .list-group {
+      max-width: 56rem;
+    }
 
-  .list-group-item {
-    max-width: 28rem;
-  }
+    .names-wrapper {
+      flex-wrap: wrap;
+    }
 
-  .gh-pride-img {
-    width: 8rem;
-    /* padding-top: 1.5rem;
+    .list-group-item {
+      max-width: 28rem;
+    }
+
+    .gh-pride-img {
+      width: 8rem;
+      /* padding-top: 1.5rem;
     padding-bottom: 1.5rem; */
+    }
+
+    .jumbotron {
+      height: 80vh;
+      max-height: 31rem;
+      max-width: 42rem;
+    }
 }
-}}
 
 @media (min-width: 1200px) {
   .flip-card-row {
@@ -468,76 +535,30 @@ h6 {
   .flip-card-back p {
     font-size: .86rem;
     line-height: 1.15rem;
-.flip-card-back p {
-  font-size: .86rem;
-  line-height: 1.15rem;
-}
-}
-  /*--- jumbotron ---*/
-.jumbotron {
-  height:80vh;
-  width: 50%;
-  border-radius: 1rem;
-  margin: 0 auto;  
-  background-color: #fffbfe;
-  padding-top: 2rem;
-}
-
-.btn-cta {
-  width: 150px;
-  height: 75px;
-  border-radius: 25px;
-  font-weight: 600;
-  padding-top: 12px;
-  background-color: #733a9b;
-  color: #fffbfe;
-  font-size: 150%;  
-  padding-top: 1rem;
-}
-
-.text-icon-links a {
-  color: #733a9b;
-}
-
-.text-icon-links a:hover {
-  color: #ffca3a;
-}
-
-.hero-text-image img {
-  width: 100px;
-  height: 100px;
-}
-
-@media only screen and (max-width: 991px) {
-  .jumbotron h1 {
-    font-size: 1.5rem;
-  }
-  .hero-text-cta p {
-    font-size: 0.75rem;
-  }
-}
-
-@media (min-width: 1440px) {
-  .flip-card-row {
-    max-width: 80em;
   }
 
-  .flip-card-outer {
-    max-width: 20em;
-  }
+  @media (min-width: 1440px) {
+    .flip-card-row {
+      max-width: 80em;
+    }
 
-  .flip-card-wrapper,
-  .flip-card-container {
-    max-height: 22.5em;
+    .flip-card-outer {
+      max-width: 20em;
+    }
+
+    .flip-card-wrapper,
+    .flip-card-container {
+      max-height: 22.5em;
+    }
+
+    .flip-card-back p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
   }
 
   .flip-card-back p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
+    font-size: .925rem;
+    line-height: 1.105rem;
 }
-.flip-card-back p {
-  font-size: 1rem;
-  line-height: 1.3rem;
 }
-    }
