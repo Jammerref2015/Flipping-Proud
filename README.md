@@ -112,7 +112,7 @@ This website will follow the principles of User Centred Design (UCD), which will
 ### Responsiveness
 - Google Dev Tools and various device sizes were used extensively to test device responsiveness.
 ### Bugs
-- We encountered a particular bug relating to iOS devices when viewing the flipcards.html page. Rather than revealing the text, the cards flip to reveal a mirror image of the image on the front of the card. Given more time, a full investigation of this issue would be undertaken but it is suspected that it is an iOS issue, where there is no support for this functionality. 
+- We encountered a particular bug relating to iOS devices when viewing the flipcards.html page. Rather than revealing the text, the cards flip to reveal a mirror image of the image on the front of the card. Given more time, a full investigation of this issue would be undertaken but it is suspected that it is an iOS issue, where there is no support for this functionality. Please see [video](https://github.com/Jammerref2015/Flipping-Proud/blob/master/static/images/iOS-flip-bug.mp4) for a demonstration of the issue.
 
 ## Deployment
 ### GitHub Pages
