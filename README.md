@@ -1,8 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center"><img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Code Institute logo" width="200" height="auto"></p>
 
-
-
-# Flippin' Proud
+<h1 align='center'>Flippin' Proud</h1>
 
 <p align="center"><img src="static/images/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
 
