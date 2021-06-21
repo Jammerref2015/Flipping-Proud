@@ -51,7 +51,7 @@ This website will follow the principles of User Centred Design (UCD), which will
 
 ## Features
 ### Existing Features
-### Future Features
+- A three page site 
 
 ## Technologies Used
 
@@ -100,7 +100,11 @@ This website will follow the principles of User Centred Design (UCD), which will
 
 ## Testing
 ### Validation
+- HTML passed through the [validator](https://validator.w3.org/) without any errors. 
+- CSS passed through the [validator](https://jigsaw.w3.org/css-validator/) without errors.
+- JavaScript passed through the [validator](https://jshint.com/) without any errors.
 ### Responsiveness
+- Google Dev Tools and various device sizes were used extensively too test device responsiveness.
 
 ## Deployment
 ### GitHub Pages
