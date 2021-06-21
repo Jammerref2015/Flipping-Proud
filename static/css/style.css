@@ -189,6 +189,16 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: rgba(255, 202, 58, 0.65) 0 0 20px 5px;
 }
 
+.contact-container {
+  height: calc(100vh - 3.75em);
+  position: relative;
+  top: 3.75em;
+}
+
+.contact-list {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   body {
     position: relative;
