@@ -6,11 +6,11 @@
       width: 100%;
       height: calc(100vh - 70px);
       margin: 50 auto;
-      -webkit-animation: color_change 1.5s infinite ease-in-out;
-      -moz-animation: color_change 1.5s infinite ease-in-out;
-      -ms-animation: color_change 1.5s infinite ease-in-out;
-      -o-animation: color_change 1.5s infinite ease-in-out;
-      animation: color_change 1.5s infinite ease-in-out;
+      -webkit-animation: color_change 10s infinite ease-in-out;
+      -moz-animation: color_change 10s infinite ease-in-out;
+      -ms-animation: color_change 10s infinite ease-in-out;
+      -o-animation: color_change 10s infinite ease-in-out;
+      animation: color_change 10s infinite ease-in-out;
       position: relative;
       top: 70px;
   }
