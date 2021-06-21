@@ -132,3 +132,33 @@ ul li:nth-child(7){
         transform: translate(-50%,-50%) rotate(-405deg);
     }
 }
+
+@media (max-height: 900px) {
+    #title{
+        margin-top: 4vh;
+    }
+}
+
+@media (max-height: 800px) {
+    #title{
+        margin-top: 8vh;
+    }
+}
+
+@media (max-height: 700px) {
+    #title{
+        margin-top: 12vh;
+    }
+}
+
+@media (max-height: 600px) {
+    #title{
+        margin-top: 18vh;
+    }
+}
+
+@media (max-height: 500px) {
+    #title{
+        margin-top: 24vh;
+    }
+}
