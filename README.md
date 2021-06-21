@@ -4,6 +4,8 @@
 
 # Flippin' Proud
 
+<p align="center"><img src="static/images/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
+
 ## What's It All About?
 Flippin' Proud is a team collaboration project to create an application to celebrate Pride month. The aim is to help educate and bring people together by showcasing important members of the LGBTQ+ community.
 
