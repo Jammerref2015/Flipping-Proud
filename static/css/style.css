@@ -36,6 +36,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link.active {
   background-color: #f0f0f0;
   color: #733a9b;
+  cursor: default;
+}
+
+.nav-link:not(.active):hover {
+  background-color: #f0f0f0;
+  opacity: 0.85;
+  color: #733a9b;
 }
 
 .fas.fa-bars {
@@ -45,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .navLinks a {
   color: #F0f0f0;
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .logoStyling img {
-  height:70px;
+  height:60px;
   position: relative;
   left: -.5em;
 }
@@ -61,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .flip-card-outer {
   width: 100vw;
-  height: calc(100vh - 4.375em);
+  height: calc(100vh - 3.75em);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 15.5em;
     height: unset;
     position: relative;
-    top: 4.375em;
+    top: 3.75em;
   }
 
   .flip-card-wrapper {
@@ -226,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar-expand-md .navbar-collapse {
     justify-content: flex-end;
-    line-height: 4.375em;
+    line-height: 3.75em;
     position: relative;
     left: .5em;
 }
@@ -317,6 +324,20 @@ h5 {
   width: 2.5em;
   bottom: 1%;
 }
+
+.logoStyling {
+  position: relative;
+  height: 3.75em;
+  width: 16em;
+}
+
+.logoStyling img {
+  height:4.5em;
+  width: 16em;
+  position: absolute;
+  left: -1.25em;
+  top: -.125em;
+}
 }
 
 @media (min-width: 1200px) {
@@ -327,6 +348,47 @@ h5 {
   }
 
   .flip-card-outer {
-    max-width: 16.125em;
+    max-width: 18em;
   }
+
+  .flip-card-wrapper,
+.flip-card-container {
+  height: 40vh;
+  min-height: 20em;
+}
+
+.name-wrapper-heading {
+  padding-right: 2.5em;
+  line-height: 3.282em;
+  font-size: 1.2em;
+}
+
+.pride-doughnut-icon {
+  width: 3em;
+}
+
+.flip-card-back p {
+  font-size: .86rem;
+  line-height: 1.15rem;
+}
   }
+
+  @media (min-width: 1440px) {
+    .flip-card-row {
+      max-width: 80em;
+    }
+
+    .flip-card-outer {
+      max-width: 20em;
+    }
+
+    .flip-card-wrapper,
+.flip-card-container {
+  max-height: 22.5em;
+}
+
+.flip-card-back p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+    }
