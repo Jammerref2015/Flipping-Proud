@@ -169,6 +169,6 @@ The images used to create the cards originate from the following sources -
  - Oscar Wilde courtesy of [Napoleon Sarony](https://en.wikipedia.org/wiki/Napoleon_Sarony) via [Wikipedia](https://en.wikipedia.org/wiki/Oscar_Wilde#/media/File:Oscar_Wilde_3g07095u-adjust.jpg)
 
 ### Acknowledgements
-The team would like to thank our mentor Aukje van der Wal for her amazing support, guidance and humour throughout the entire project.
+The team would like to thank our mentor [Aukje van der Wal](https://github.com/byIlsa) for her amazing support, guidance and humour throughout the entire project.
 ### Notice
 This site has been created for educational purposes only.
