@@ -32,7 +32,7 @@ crossorigin="anonymous"
 <body>
 
   <nav class="navbar navbar-expand-md navLinks bg-light px-2 pl-md-4 py-0">
-    <a class="navbar-brand logoStyling py-0" href="index.html"><img src="static/images/Logo_Final.png" alt="logo"></a>
+    <a class="navbar-brand logoStyling  logoGlitter py-0" href="index.html"><img src="static/images/Logo_Final.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <!-- <span class="fas-fa-bars"></span> -->
       <i class="fas fa-bars"></i>
@@ -71,5 +71,14 @@ crossorigin="anonymous"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 <!-- <script src="static/js/script.js"></script> -->
+<script src="static/js/jquery-canvas-sparkles.js"></script>
+<script>
+  $(document).ready(function() {
+      $(".logoGlitter").sparkle({
+          color: ["#2eafea","#e56604"],
+          speed: 0.4
+      });
+  });
+</script>
 </body>
 </html>
