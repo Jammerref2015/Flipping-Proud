@@ -53,7 +53,10 @@ This website will follow the principles of User Centred Design (UCD), which will
 
 ## Features
 ### Existing Features
-### Future Features
+- The site consists of three pages, each with a responsive navigation bar at the top.
+- A jumbotron greets users on the landing page, with some introductory information on the nature of the site and a call to action button to take the user to the main flipcard page.
+- The main flipcard page is an interactive invitation to the user to learn about the important work that various people have undertaken to improve the LGBTQ+ community.
+- A final contact page, setting out information about the site developers.   
 
 ## Technologies Used
 
@@ -102,7 +105,11 @@ This website will follow the principles of User Centred Design (UCD), which will
 
 ## Testing
 ### Validation
+- HTML passed through the [validator](https://validator.w3.org/) without any errors. 
+- CSS passed through the [validator](https://jigsaw.w3.org/css-validator/) without errors.
+- JavaScript passed through the [validator](https://jshint.com/) without any errors.
 ### Responsiveness
+- Google Dev Tools and various device sizes were used extensively to test device responsiveness.
 
 ## Deployment
 ### GitHub Pages

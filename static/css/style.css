@@ -188,7 +188,8 @@ h6 {
   box-shadow: rgba(106, 76, 147, 0.95) 0 0 20px 5px;
 }
 
-.bg-yellow {
+.bg-yellow,
+.btn-cta:hover {
   background-color: #ffca3a;
 }
 
@@ -467,6 +468,52 @@ h6 {
   .flip-card-back p {
     font-size: .86rem;
     line-height: 1.15rem;
+.flip-card-back p {
+  font-size: .86rem;
+  line-height: 1.15rem;
+}
+}
+  /*--- jumbotron ---*/
+.jumbotron {
+  height:80vh;
+  width: 50%;
+  border-radius: 1rem;
+  margin: 0 auto;  
+  background-color: #fffbfe;
+  padding-top: 2rem;
+}
+
+.btn-cta {
+  width: 150px;
+  height: 75px;
+  border-radius: 25px;
+  font-weight: 600;
+  padding-top: 12px;
+  background-color: #733a9b;
+  color: #fffbfe;
+  font-size: 150%;  
+  padding-top: 1rem;
+}
+
+.text-icon-links a {
+  color: #733a9b;
+}
+
+.text-icon-links a:hover {
+  color: #ffca3a;
+}
+
+.hero-text-image img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 1.5rem;
+  }
+  .hero-text-cta p {
+    font-size: 0.75rem;
   }
 }
 
@@ -489,3 +536,8 @@ h6 {
     line-height: 1.3rem;
   }
 }
+.flip-card-back p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+    }
