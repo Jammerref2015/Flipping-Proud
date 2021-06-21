@@ -4,7 +4,7 @@
   
   .rolling-pride{
       width: 100%;
-      height: calc(100vh - 70px);
+      height: calc(100vh - 3.75em);
       margin: 50 auto;
       -webkit-animation: color_change 10s infinite ease-in-out;
       -moz-animation: color_change 10s infinite ease-in-out;
@@ -12,7 +12,7 @@
       -o-animation: color_change 10s infinite ease-in-out;
       animation: color_change 10s infinite ease-in-out;
       position: relative;
-      top: 70px;
+      top: 3.75em;
   }
   
   @-webkit-keyframes color_change {

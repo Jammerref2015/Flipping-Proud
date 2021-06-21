@@ -1,8 +1,8 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center"><img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" alt="Code Institute logo" width="200" height="auto"></p>
 
+<h1 align='center'>Flippin' Proud</h1>
 
-
-# Flippin' Proud
+<p align="center"><img src="static/images/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
 
 ## What's It All About?
 Flippin' Proud is a team collaboration project to create an application to celebrate Pride month. The aim is to help educate and bring people together by showcasing important members of the LGBTQ+ community.
@@ -20,8 +20,6 @@ The project has been made possible by the hard work and collaboration of the fol
  - [Adrian Looney](https://github.com/Jammerref2015)
 
 ### [View the live project here.](https://jammerref2015.github.io/Flipping-Proud/)
-
-![Mock-up]
 
 ## User Experience (UX)
 This website will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
@@ -167,6 +165,6 @@ The images used to create the cards originate from the following sources -
  - Oscar Wilde courtesy of [Napoleon Sarony](https://en.wikipedia.org/wiki/Napoleon_Sarony) via [Wikipedia](https://en.wikipedia.org/wiki/Oscar_Wilde#/media/File:Oscar_Wilde_3g07095u-adjust.jpg)
 
 ### Acknowledgements
-The team would like to thank our mentor Aukje van der Wal for her amazing support, guidance and humour throughout the entire project.
+The team would like to thank our mentor [Aukje van der Wal](https://github.com/byIlsa) for her amazing support, guidance and humour throughout the entire project.
 ### Notice
 This site has been created for educational purposes only.
