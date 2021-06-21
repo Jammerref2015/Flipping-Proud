@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Interactive flipcard app celebrating Pride icons as well as themes of diversity, visibility and community"/>
-<meta property="og:title" content="Flippin' Proud | Code Institute June 2021 Hackathon" />
-<meta property="og:image" content="static/images/Logo_Final.png" />
-<meta property="og:description" content="Flipcard app celebrating Pride icons as well as themes of diversity, visibility and community" />
-<meta property="og:url" content="https://jammerref2015.github.io/Flipping-Proud" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description"
+    content="Interactive flipcard app celebrating Pride icons as well as themes of diversity, visibility and community" />
+  <meta property="og:title" content="Flippin' Proud | Code Institute June 2021 Hackathon" />
+  <meta property="og:image" content="static/images/Logo_Final.png" />
+  <meta property="og:description"
+    content="Flipcard app celebrating Pride icons as well as themes of diversity, visibility and community" />
+  <meta property="og:url" content="https://jammerref2015.github.io/Flipping-Proud" />
 
-<link rel="icon" sizes="32x32" href="static/images/favicon-32.png" type="image/png">
-<link rel="icon" sizes="192x192" href="static/images/favicon-192.png" type="image/png">
-<link rel="icon" sizes="512x512" href="static/images/favicon-512.png" type="image/png">
-<link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon-apple-touch-180.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="static/images/favicon-32.png" type="image/png">
+  <link rel="icon" sizes="192x192" href="static/images/favicon-192.png" type="image/png">
+  <link rel="icon" sizes="512x512" href="static/images/favicon-512.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon-apple-touch-180.png" type="image/png">
 
-<link rel="icon" href="static/images/favicon.png" type="image/png">
-<link rel=“preconnect” href=“https://fonts.gstatic.com”>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<link rel="stylesheet" href="static/css/style.css">
-<title>Flippin' Proud | Flipcards</title>
+  <link rel="icon" href="static/images/favicon.png" type="image/png">
+  <link rel=“preconnect” href=“https://fonts.gstatic.com”>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Flippin' Proud | Flipcards</title>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-md navLinks bg-light px-2 pl-md-4 py-0">
     <a class="navbar-brand logoStyling py-0" href="index.html"><img src="static/images/Logo_Final.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <!-- <span class="fas-fa-bars"></span> -->
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse mt-2 mt-md-0 mb-3 mb-md-0" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0" href="index.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0" href="index.html">Home<span
+            class="sr-only">(current)</span></a>
         <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0 active" href="flipcards.html">Flipcards</a>
         <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0" href="contact.html">Contact</a>
       </div>
@@ -41,9 +49,10 @@
   </nav>
   <div class="flip-card-row row pb-5 mx-0">
   </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-<script src="static/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <script src="static/js/script.js"></script>
 </body>
+
 </html>
