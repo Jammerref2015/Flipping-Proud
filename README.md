@@ -107,7 +107,7 @@ This website will follow the principles of User Centred Design (UCD), which will
 - CSS passed through the [validator](https://jigsaw.w3.org/css-validator/) without errors.
 - JavaScript passed through the [validator](https://jshint.com/) without any errors.
 ### Responsiveness
-- Google Dev Tools and various device sizes were used extensively too test device responsiveness.
+- Google Dev Tools and various device sizes were used extensively to test device responsiveness.
 
 ## Deployment
 ### GitHub Pages
