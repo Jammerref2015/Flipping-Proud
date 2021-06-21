@@ -50,6 +50,7 @@ This website will follow the principles of User Centred Design (UCD), which will
 	Montserrat was chosen as the main font to be used for the site. It is a clean font, which is easy to read for accessibility purposes and also a popular font, used on many existing websites with a LGBTQ+ theme. Roboto acts as a second font as this pairs well with Montserrat.
 	Sans serif will act as a fallback font in case the chosen fonts are not imported correctly.
 -   #### Wireframes 
+	Wireframes for the project can be found [here](https://github.com/Jammerref2015/Flipping-Proud/blob/master/static/images/flippin-proud-wireframes.pdf)
 
 ## Features
 ### Existing Features
