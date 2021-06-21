@@ -23,8 +23,6 @@ The project has been made possible by the hard work and collaboration of the fol
 
 ### [View the live project here.](https://jammerref2015.github.io/Flipping-Proud/)
 
-![Mock-up]
-
 ## User Experience (UX)
 This website will follow the principles of User Centred Design (UCD), which will focus on placing users at the centre of the design and development process.
 ### User Stories
