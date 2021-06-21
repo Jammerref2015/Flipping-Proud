@@ -156,6 +156,7 @@ See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archivi
 ## Credits
 ### Code
 -   [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System.
+-   Base code for the sparkle effects was provided by [Simon Goellner](https://codepen.io/simeydotme/pen/jgcvi/) and modified by the developers.
 ### Content
 Card content courtesy of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [bi.org](https://bi.org/en)
 ### Media
