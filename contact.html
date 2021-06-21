@@ -4,31 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
+<meta name="Description" content="Interactive flipcard app celebrating Pride icons as well as themes of diversity, visibility and community"/>
+<meta property="og:title" content="Flippin' Proud | Code Institute June 2021 Hackathon" />
+<meta property="og:image" content="static/images/Logo_Final.png" />
+<meta property="og:description" content="Flipcard app celebrating Pride icons as well as themes of diversity, visibility and community" />
+<meta property="og:url" content="https://jammerref2015.github.io/Flipping-Proud" />
+
+<link rel="icon" sizes="32x32" href="static/images/favicon-32.png" type="image/png">
+<link rel="icon" sizes="192x192" href="static/images/favicon-192.png" type="image/png">
+<link rel="icon" sizes="512x512" href="static/images/favicon-512.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon-apple-touch-180.png" type="image/png">
+
+<link rel="icon" href="static/images/favicon.png" type="image/png">
 <link rel=“preconnect” href=“https://fonts.gstatic.com”>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="static/css/style.css">
-<title>Flippin' Proud!</title>
+<title>Flippin' Proud | Contact</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-md navLinks bg-light">
-    <a class="navbar-brand logoStyling" href="index.html"><img src="static/images/Logo_Final.png" alt="logo"></a>
+  <nav class="navbar navbar-expand-md navLinks bg-light px-2 pl-md-4 py-0">
+    <a class="navbar-brand logoStyling py-0" href="index.html"><img src="static/images/Logo_Final.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <!-- <span class="fas-fa-bars"></span> -->
+      <i class="fas fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse mt-2 mt-md-0 mb-3 mb-md-0" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="flipcards.html">Flipcards</a>
-        <a class="nav-item nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0" href="index.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0" href="flipcards.html">Flipcards</a>
+        <a class="nav-item nav-link pl-2 pr-3 px-md-4 py-md-0 active" href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
 
-  <div class="container">Flippin' contact stuff!</div>
+  <div class="container px-0 contact-container d-flex flex-direction-column"><div class="list-group contact-list">
+    <!-- <div class="contact-logo text-center"><img src='static/images/pride-doughnut-icon.png' width='80' class="" alt="Pride doughnut icon"></div> -->
+    <div class="contact-logo text-center"><a href="https://github.com/Jammerref2015/Flipping-Proud" target="_blank"><img src='static/images/gh-logo-pride.png' width='90' class="gh-pride-img" alt="Pride GitHub icon"></a></div>
+    <a href="https://github.com/SteveKennyUK" target="_blank" class="list-group-item list-group-item-action bg-green"><h5 class="contact-heading">Steven Kenny</h5><p class="mb-1">@SteveKennyUK : insert subtitle here</p></a>
+    <a href="https://github.com/christine-gk416" target="_blank" class="list-group-item list-group-item-action bg-blue"><h5 class="contact-heading">Christine Greaney-Kelley</h5><p class="mb-1">@christine-gk416 : HTML, CSS, style pack</p></a>
+    <a href="https://github.com/Jammerref2015" target="_blank" class="list-group-item list-group-item-action bg-purple"><h5 class="contact-heading">Adrian Looney</h5><p class="mb-1">@Jammerref2015 : insert subtitle here</p></a>
+    <a href="https://github.com/loosenthedark" target="_blank" class="list-group-item list-group-item-action bg-snow"><h5 class="contact-heading">Paul Harrington</h5><p class="mb-1">@loosenthedark : jQuery, responsive layout</p></a>
+    <a href="https://github.com/aramantos" target="_blank" class="list-group-item list-group-item-action bg-yellow"><h5 class="contact-heading">John Doyle</h5><p class="mb-1">@Aramantos : insert subtitle here</p></a>
+    <a href="https://github.com/byllsa" target="_blank" class="list-group-item list-group-item-action bg-jet"><h5 class="contact-heading text-right">Aukje van der Wal</h5><p class="mb-1 text-right">@byllsa : project mentor</p></a>
+    </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
